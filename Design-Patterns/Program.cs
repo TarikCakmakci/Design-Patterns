@@ -11,6 +11,9 @@ namespace Design_Patterns
         static void Main(string[] args)
         {
             //test
+            Company c = Company.getInstance();
+            c.showMessage();
+            Console.Read();
 
         }
     }
