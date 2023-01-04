@@ -9,6 +9,7 @@ namespace Design_Patterns
     class Program
     {
         static void Main(string[] args)
+
         {
             //SİNGLETON
             //Company c = Company.getInstance();
@@ -38,8 +39,8 @@ namespace Design_Patterns
                 Console.WriteLine("Havuzdaki nesne:"+obj);
             }
             Console.Read();
-           
-
+        { 
+            Singleton test = Singleton.Instance;
 
         }
     }
