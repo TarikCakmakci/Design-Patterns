@@ -9,12 +9,8 @@ namespace Design_Patterns
     class Program
     {
         static void Main(string[] args)
-        {
-            //test
-            Company c = Company.getInstance();
-            c.showMessage();
-            Console.Read();
-
+        { 
+            Singleton test = Singleton.Instance;
         }
     }
 }
